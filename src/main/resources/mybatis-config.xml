@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="SLF4J"/>
+    </settings>
+    <typeAliases>
+        <!--<typeAlias alias="User" type="com.brian.rh.jdbc.orm.mybatis.model.User"/>-->
+
+    </typeAliases>
+    
+<!--  <environments default="development">
+
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+                <property name="url" value="jdbc:oracle:thin:@192.168.1.12:1521:XE"/>
+                <property name="username" value="rh_prod"/>
+                <property name="password" value="rh_prod"/>
+            </dataSource>
+        </environment>
+    </environments>-->
+<!--    <mappers>
+        <mapper class="com.brian.rh.jdbc.orm.mybatis.mapper.UserMapper"/>
+    </mappers>-->
+    <!--<mappers>
+       &lt;!&ndash; <mapper class="com.brian.rh.jdbc.orm.mybatis.mapper.UserMapper"/>&ndash;&gt;
+        <package name="com.brian.rh.jdbc.orm.mybatis.mapper"/>
+    </mappers>-->
+</configuration>

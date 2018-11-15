@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.brian.rh.jdbc.orm.mybatis.mapper.UserMapper">
+
+    <select id="getUserById" resultType="com.brian.rh.jdbc.orm.mybatis.model.User">
+		select * from t_user where id = #{id}
+	</select>
+
+</mapper>
